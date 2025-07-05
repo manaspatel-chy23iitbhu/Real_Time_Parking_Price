@@ -88,6 +88,7 @@ price = 10 + 5 * (avg_occupancy / capacity)
 
 ```python
 demand = 1.2*(occ_avg / cap) + 0.05*queue_len + 0.2*traffic + 0.8*special_day + 0.2*vehicle_type
+price = 10 + 5*(demand)
 ```
 
 * More features
