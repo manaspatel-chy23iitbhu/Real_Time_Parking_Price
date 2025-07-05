@@ -35,15 +35,16 @@ Urban parking suffers from two extremes: overcrowding at popular spots and under
 
 ```mermaid
 flowchart TD
-    A[CSV Dataset: 14 Parking Lots] --> B[Preprocessing + Feature Encoding]
-    B --> C[Split into 14 CSVs by Lot]
-    C --> D[Pathway Stream (per CSV)]
-    D --> E[Windowing - 30min Tumble]
-    E --> F1[Model 1: Avg Occupancy]
-    E --> F2[Model 2: Demand Function]
-    F1 --> G[Real-time Price Output]
+    A["CSV Dataset: 14 Parking Lots"] --> B["Preprocessing + Feature Encoding"]
+    B --> C["Split into 14 CSVs by Lot"]
+    C --> D["Pathway Stream (per CSV)"]
+    D --> E["Windowing ~ 30min Tumble"]
+    E --> F1["Model 1: Avg Occupancy"]
+    E --> F2["Model 2: Demand Function"]
+    F1 --> G["Real-time Price Output"]
     F2 --> G
-    G --> H[Interactive Plot with Bokeh + Panel]
+    G --> H["Interactive Plot with Bokeh + Panel"]
+
 ```
 
 ---
