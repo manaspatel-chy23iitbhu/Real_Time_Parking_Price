@@ -107,7 +107,7 @@ price = 10 + 5*(demand)
 
 1. Clone this repo
 2. Open `Manas_Patel_SA'25_Project.ipynb` in Google Colab
-3. Upload any one `parking_stream_<lotname>.csv`
+3. Select any one lot and put it in `parking_stream_<lotname>.csv`
 4. Run all cells sequentially
 5. At the end, call `pw.run()`
 6. Observe dynamic pricing plot
