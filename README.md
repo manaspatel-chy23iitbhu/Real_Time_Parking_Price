@@ -4,7 +4,7 @@ A real-time pricing engine that has two models. One linear and kind of simplisti
 
 ---
 
-## ✨ Project Overview
+## Project Overview
 
 Urban parking suffers from two extremes: overcrowding at popular spots and underutilization elsewhere. Static pricing fails to adapt to varying demand patterns.
 
@@ -20,7 +20,7 @@ Urban parking suffers from two extremes: overcrowding at popular spots and under
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 | Category         | Tools/Tech                     |
 | ---------------- | ------------------------------ |
@@ -31,7 +31,7 @@ Urban parking suffers from two extremes: overcrowding at popular spots and under
 
 ---
 
-## ⚙️ Architecture Diagram
+## Architecture Diagram
 
 ```mermaid
 flowchart TD
@@ -49,7 +49,7 @@ flowchart TD
 
 ---
 
-## 🔄 Architecture & Workflow Details
+## Architecture & Workflow Details
 
 ### 1. **Data Source**
 
@@ -103,7 +103,7 @@ price = 10 + 5*(demand)
 
 ---
 
-## 🌐 How to Run
+## How to Run
 
 1. Clone this repo
 2. Open `Manas_Patel_SA'25_Project.ipynb` in Google Colab
@@ -114,7 +114,7 @@ price = 10 + 5*(demand)
 
 ---
 
-## 📊 Results
+## Results
 
 * **Model 1**: Easy to interpret, smooth pricing updates
 * **Model 2**: More responsive, accounts for external demand factors
@@ -122,7 +122,7 @@ price = 10 + 5*(demand)
 
 ---
 
-## ✅ Completed Requirements
+## Completed Requirements
 
 * [x] Baseline + Advanced Pricing Models
 * [x] Pathway-based Real-Time Streaming
@@ -133,7 +133,7 @@ price = 10 + 5*(demand)
 
 ---
 
-## ✨ Acknowledgments
+## Acknowledgments
 
 * Pathway Team
 * Analytics Club @ IIT Guwahati
